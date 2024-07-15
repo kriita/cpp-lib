@@ -50,3 +50,19 @@ cc_test(
         "@googletest//:gtest_main",
     ],
 )
+
+cc_library(
+    name = "Rationalnumber",
+    srcs = ["rationalnumber/rationalnumber.cpp"],
+    hdrs = ["rationalnumber/rationalnumber.h"],
+    visibility = ["//visibility:public"],
+)
+
+cc_test(
+    name = "RationalnumberTest",
+    srcs = ["rationalnumber/RationalnumberTest.cpp"],
+    deps = [
+        ":Rationalnumber",
+        "@googletest//:gtest_main",
+    ],
+)
