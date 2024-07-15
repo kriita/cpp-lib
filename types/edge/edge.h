@@ -3,7 +3,7 @@
 #include<iostream>
 #include<vector>
 
-#include "point.h"
+#include "types/point/point.h"
 
 class Edge
 {

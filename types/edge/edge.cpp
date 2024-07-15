@@ -9,7 +9,7 @@
 #include<vector>
 
 #include "edge.h"
-#include "point.h"
+#include "types/point/point.h"
 
 // Standard constructor
 Edge::Edge(Point _u, Point _v, long double _weight) :

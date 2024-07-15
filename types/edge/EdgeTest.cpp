@@ -9,7 +9,7 @@
 
 #include <gtest/gtest.h>
 #include "edge.h"
-#include "point.h"
+#include "types/point/point.h"
 
 TEST(EdgeTest, Constructor) {
   Point p1(0, 0);

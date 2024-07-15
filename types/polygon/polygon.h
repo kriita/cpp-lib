@@ -1,7 +1,7 @@
 #ifndef POLYGON_H
 #define POLYGON_H
 #include<vector>
-#include "point.h"
+#include "types/point/point.h"
 
 class Polygon
 {

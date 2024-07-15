@@ -4,7 +4,7 @@
  * Author: Filip Jaredson
  */
 #include<iostream>
-#include "edge.h"
+#include "types/edge/edge.h"
 
 #include "polygon.h"
 

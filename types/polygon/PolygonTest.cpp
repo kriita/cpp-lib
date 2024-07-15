@@ -1,7 +1,7 @@
 #include <gtest/gtest.h>
 #include "polygon.h"
-#include "point.h"
-#include "edge.h"
+#include "types/point/point.h"
+#include "types/edge/edge.h"
 
 #include <vector>
 
